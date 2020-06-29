@@ -2,43 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <header class="header">
+    <h1 class="header__title">
+      <span class="header__text">Reliable, efficient delivery</span>
+      <span class="header__text">Powered by Technology</span>
+    </h1>
+    <p class="header__mission">Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</p>
+  </header>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+  <main class="content">
+    <section class="card supervisor">
+      <h2 class="card_title">Supervisor</h2>
+      <p class="card__description">Monitors activity to identify project roadblocks</p>
+    </section>
+    <section class="card team">
+      <h2 class="card_title">Team Builder</h2>
+      <p class="card__description">Scans our talent network to create the optimal team for your project</p>
+    </section>
+    <section class="card karma">
+      <h2 class="card_title">Karma</h2>
+      <p class="card__description">Regularly evaluates our talent to ensure quality</p>
+    </section>
+    <section class="card calculator">
+      <h2 class="card_title">Calculator</h2>
+      <p class="card__description">Uses data from past projects to provide better delivery estimates</p>
+    </section>
+  </main>  
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://vitormarcal.com.br/" target="_blank">Vítor Marçal</a>.
     </p>
   </footer>
 </body>
