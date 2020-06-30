@@ -51,7 +51,7 @@ body {
 }
 
 .card {
-  height: 300px;
+  height: 250px;
   background-color: white;
   border-top: 5px solid;
   border-radius: 5px;
@@ -60,20 +60,20 @@ body {
 
 .supervisor {
     border-top-color: var(--cyan);
-    background: url(../images/icon-supervisor.svg) no-repeat 91% 86%/80px;
+    background: url(../images/icon-supervisor.svg) no-repeat 91% 86%/65px;
 }
 
 .team {
     border-top-color: var(--red);
-    background: url(../images/icon-team-builder.svg) no-repeat 91% 86%/80px;
+    background: url(../images/icon-team-builder.svg) no-repeat 91% 86%/65px;
 }
 
 .karma {
     border-top-color: var(--orange);
-    background: url(../images/icon-karma.svg) no-repeat 91% 86%/80px;
+    background: url(../images/icon-karma.svg) no-repeat 91% 86%/65px;
 }
 
 .calculator {
     border-top-color: var(--blue);
-    background: url(../images/icon-calculator.svg) no-repeat 91% 86%/80px;
+    background: url(../images/icon-calculator.svg) no-repeat 91% 86%/65px;
 }
