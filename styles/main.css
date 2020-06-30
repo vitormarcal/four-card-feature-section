@@ -21,4 +21,20 @@ body {
     margin: 0 auto;
     width: 95%;
     max-width: 1240px;
+
+    background-color: var(--very-light-gray);
+}
+
+.header__text {
+    display: block;
+    font-size: 29px;
+    font-weight: 200;
+}
+
+.header__text--bold {
+    font-weight: 600;
+}
+
+.header__mission {
+    text-align: center;
 }
