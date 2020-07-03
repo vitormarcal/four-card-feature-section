@@ -11,12 +11,13 @@
        grid-template-columns: 1fr 1fr 1fr;
        grid-template-areas: 
        "supervisor team karma"
-       ". calculator ."
+       "supervisor calculator karma"
        ;
     }
 
     .supervisor {
         grid-area: supervisor;
+        align-self: center;
     }
     
     .team {
@@ -25,6 +26,7 @@
     
     .karma {
         grid-area: karma;
+        align-self: center;
     }
     
     .calculator {
