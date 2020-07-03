@@ -72,6 +72,13 @@ header {
 
     text-align: left;
     font-weight: 400;
+
+    transition: transform .3s cubic-bezier(.51,1.36,.57,1.51);
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .card__description {
